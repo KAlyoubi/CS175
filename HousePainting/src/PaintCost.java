@@ -116,7 +116,7 @@ public class PaintCost {
 				//System.out.println("Enter number of Normal side per square foot ");
 				//double sqFtNormal = in.nextDouble();
 				
-				double sqFtToPaint =(2 *(houseLengthFeet * houseWidthFeet) + 2 *(houseLengthFeet * houseWidthFeet + 0.5 * (houseLengthFeet * (houseHeightFeet-houseWidthFeet)))) - (windowNumber * windowLenghtFeet * windowWidthFeet) + (doorNumber * doorLenghtFeet * doorWidthFeet);
+				double sqFtToPaint =(2 *(houseLengthFeet * houseWidthFeet) + 2 *(houseLengthFeet * houseWidthFeet + 0.5 * (houseLengthFeet * (houseHeightFeet-houseWidthFeet)))) -( (windowNumber * windowLenghtFeet * windowWidthFeet) + (doorNumber * doorLenghtFeet * doorWidthFeet));
 				 
 				 //System.out.println(costOfPainting);
 				 double costToPaint = (sqFtToPaint * sqFtCost);
