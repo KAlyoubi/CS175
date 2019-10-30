@@ -41,7 +41,7 @@ public class GroceryDiscountV2 {
 		else if (costOfGroceries < 210) {
 			System.out.println("You win a discount coupon of $" + (costOfGroceries * 0.12) + " 12% of your purchase");
 		}
-		else if (costOfGroceries > 210) {
+		else if (costOfGroceries >= 210) {
 			System.out.println("You win a discount coupon of $" + (costOfGroceries * 0.14) + " 14% of your purchase");
 			}
 		
